@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 body{
     margin:0;
     padding:0;
@@ -8,6 +7,7 @@ body{
 
 .header{
     text-align:center;
+
 }
 
 
@@ -34,5 +34,18 @@ background-color: red;
 color: white;
 }
 
+.card{
+    float:right;
+    width: 30%;
+}
 
->>>>>>> Stashed changes
+#foto{
+    float:right;
+    
+}
+
+.footer{
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
