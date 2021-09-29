@@ -1,0 +1,38 @@
+<<<<<<< Updated upstream
+=======
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+.header{
+    text-align:center;
+}
+
+
+.topnav{
+    background-color: blue;
+    text-align: left;
+
+}
+
+
+
+.topnav a{ 
+ display:inline;
+    background-color:darkblue;
+        text-decoration: none;
+            padding:14px 16px;
+        justify-content: center;
+     color:lightgray;
+ padding-left: 498px;
+}
+
+.topnav a:hover{
+background-color: red;
+color: white;
+}
+
+
+>>>>>>> Stashed changes

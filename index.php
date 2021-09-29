@@ -8,5 +8,21 @@
 </head>
 <body>
     
+<<<<<<< Updated upstream
+=======
+
+<a href="index.php">Home </a>
+<a href="programma.php">programma </a>
+<a href="php/tixets.php">tickets </a>
+
+</div>
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 </body>
 </html>
