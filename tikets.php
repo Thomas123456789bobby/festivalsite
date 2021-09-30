@@ -12,39 +12,47 @@
 </head>
 <body>
     <div class="main_box">
-        <h1 id="fro_txt">koop hier je tikets</h1>
- 
-    <span> voornaam:</span>
+    <form action="comfurm.php" method="POST">
+        <h1>koop hier je tikets</h1>
+    
+    <span> voornaam:
     <input id="box" type="text" name="text_1",>
-    <br>
-    <br>
+    </span>
+    
 
-    <span>achternaam:</span>
+    <span>achternaam:
     <input id="box" type="text" name="text_2">
-    <br>
-    <br>
+    </span>
     
-    <span>leeftijt:</span>
+    
+    <span>leeftijt:
     <input id="box" type="number" name="getal_1">
-    <br>
-    <br>
-
-    <span> e-mail:</span>
-    <input id="box" type="text" name="text_3">
-    <br>
-    <br>
-
-    <span> aders:</span>
-    <input id="box" type="text" name="text_4">
-    <br>
-    <br>
+    </span>
     
-    <span> aantal:</span>
-    <input id="box" type="number" name="getal_2">
-    <br>
-    <br>
 
-    <input id="box" type="submit" value="verstuur">
+    <span> e-mail:
+    <input id="box" type="text" name="text_3">
+    </span>
+    
+
+    <span> aders:
+    <input id="box" type="text" name="text_4">
+    </span>
+    
+    
+    <span> aantal:
+    <input id="box" type="number" name="getal_2">
+    </span>
+
+    <span> dag:
+    <select name="dag" id="dag">
+        <option value="zaterdag">    zaterdag    </option>
+        <option value="zondag">    zondag    </option>
+     </select>
+    </span>
+
+    <input id="submit" type="submit" value="verstuur">
+    </form>
     </div>
 
 
