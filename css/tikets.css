@@ -5,17 +5,20 @@ body{
 
 }
 .main_box{
-    align-items: center;
+    border-radius: 25px;
+    border:5px;  
+    border-style:ridge;
+    border-color:rgb(48, 48, 48);
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     background-color: aliceblue;
-    border: 1px solid;
-    height: 800px;
-    width: 400px;
+    height: 400px;
+    width: 350px;
 
 }
 
-#for_txt{
+#box{
+
 
 }

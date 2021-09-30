@@ -14,37 +14,37 @@
     <div class="main_box">
         <h1 id="fro_txt">koop hier je tikets</h1>
  
-    voornaam:
-    <input type="text" name="text_1",>
+    <span> voornaam:</span>
+    <input id="box" type="text" name="text_1",>
     <br>
     <br>
 
-    achternaam:
-    <input type="text" name="text_2">
+    <span>achternaam:</span>
+    <input id="box" type="text" name="text_2">
     <br>
     <br>
     
-    leeftijt:
-    <input type="number" name="getal_1">
+    <span>leeftijt:</span>
+    <input id="box" type="number" name="getal_1">
     <br>
     <br>
 
-    e-mail:
-    <input type="text" name="text_3">
+    <span> e-mail:</span>
+    <input id="box" type="text" name="text_3">
     <br>
     <br>
 
-    aders: 
-    <input type="text" name="text_4">
+    <span> aders:</span>
+    <input id="box" type="text" name="text_4">
     <br>
     <br>
     
-    aantal:
-    <input type="number" name="getal_2">
+    <span> aantal:</span>
+    <input id="box" type="number" name="getal_2">
     <br>
     <br>
 
-    <input type="submit" value="verstuur">
+    <input id="box" type="submit" value="verstuur">
     </div>
 
 
