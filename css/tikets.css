@@ -1,0 +1,21 @@
+body{
+    background-image: url(../img/wheat.png);
+    text-align: center;
+    font-family: "Annie Use Your Telescope";
+
+}
+.main_box{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: aliceblue;
+    border: 1px solid;
+    height: 800px;
+    width: 400px;
+
+}
+
+#for_txt{
+
+}
