@@ -11,40 +11,55 @@
     <title>Document</title>
 </head>
 <body>
+<section z-index="1">
+
+<video src="img/Video_background_party.mp4" muted autoplay="true" loop="true" id="showcase"></video>
+
+</section>
+
     <div class="main_box">
-        <h1 id="fro_txt">koop hier je tikets</h1>
- 
-    voornaam:
-    <input type="text" name="text_1",>
-    <br>
-    <br>
-
-    achternaam:
-    <input type="text" name="text_2">
-    <br>
-    <br>
+    <form action="comfurm.php" method="POST">
+        <h1>koop hier je tikets</h1>
     
-    leeftijt:
-    <input type="number" name="getal_1">
-    <br>
-    <br>
-
-    e-mail:
-    <input type="text" name="text_3">
-    <br>
-    <br>
-
-    aders: 
-    <input type="text" name="text_4">
-    <br>
-    <br>
+    <span> voornaam:
+    <input id="box" type="text" name="text_1",>
+    </span>
     
-    aantal:
-    <input type="number" name="getal_2">
-    <br>
-    <br>
 
-    <input type="submit" value="verstuur">
+    <span>achternaam:
+    <input id="box" type="text" name="text_2">
+    </span>
+    
+    
+    <span>leeftijt:
+    <input id="box" type="number" name="getal_1">
+    </span>
+    
+
+    <span> e-mail:
+    <input id="box" type="text" name="text_3">
+    </span>
+    
+
+    <span> aders:
+    <input id="box" type="text" name="text_4">
+    </span>
+    
+    
+    <span> aantal:
+    <input id="box" type="number" name="getal_2">
+    </span>
+
+    <span> dag:
+    <select name="dag" id="dag">
+        <option value="zaterdag">    zaterdag    </option>
+        <option value="zondag">    zondag    </option>
+        <option value="zondag">zondag en zondag</option>
+     </select>
+    </span>
+
+    <input id="submit" type="submit" value="verstuur">
+    </form>
     </div>
 
 
