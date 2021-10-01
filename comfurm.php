@@ -12,7 +12,12 @@
     </head>
     <body>
     <div class="main_box">
-    <h1>corfim</h1>
+    <h1>klop het?</h1>
+    <section z-index="1">
+
+        <video src="img/Video_background_party.mp4" muted autoplay="true" loop="true" id="showcase"></video>
+
+    </section>
     
     <?php
     $text_1 = $_POST['text_1'];
@@ -21,20 +26,21 @@
     $text_3 = $_POST['text_3'];
     $text_4 = $_POST['text_4'];
     $getal_2 = $_POST['getal_2'];
-    echo "voornaam: $text_1";
-    echo "<br>" ;
-    echo "achternaam: $text_2";
-    echo "<br>" ;
-    echo "leeftijt: $getal_1";
-    echo "<br>" ;
-    echo "e-mail: $text_3";
-    echo "<br>" ;
-    echo "aders: $text_4";
-    echo "<br>" ;
-    echo "aantal: $getal_2";
-    echo "<br>" ;  
+    $dag = $_POST['dag'];
+    echo "<span> voornaam: $text_1 </span>";
+    echo "<span> achternaam: $text_2 </span>";
+    echo "<span> leeftijt: $getal_1 </span>";
+    echo "<span> e-mail: $text_3 </span>";
+    echo "<span> aders: $text_4 </span>";
+    echo "<span> aantal: $getal_2 </span>";
+    echo "<span> aantal: $dag </span>"; 
+    
       ?>
-      <input id="box" type="submit" value="corfim">
+      <br>
+      <form action="tikets.php" method="POST">
+      <input id="box1" type="submit" value="return">
+      <input id="box1" type="submit" value="corfim">
+      </form>
  </div>
     
    </body>

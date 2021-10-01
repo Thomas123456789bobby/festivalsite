@@ -11,6 +11,12 @@
     <title>Document</title>
 </head>
 <body>
+<section z-index="1">
+
+<video src="img/Video_background_party.mp4" muted autoplay="true" loop="true" id="showcase"></video>
+
+</section>
+
     <div class="main_box">
     <form action="comfurm.php" method="POST">
         <h1>koop hier je tikets</h1>
