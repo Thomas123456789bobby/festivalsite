@@ -54,6 +54,7 @@
     <select name="dag" id="dag">
         <option value="zaterdag">    zaterdag    </option>
         <option value="zondag">    zondag    </option>
+        <option value="zondag">zondag en zondag</option>
      </select>
     </span>
 

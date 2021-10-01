@@ -31,6 +31,17 @@ body{
 
 }
 
+#box2{
+    margin-top: 25px;
+    width: 130px;
+    height: 50px;
+    font-size: 30px;
+    background-color:rgb(104, 184, 164);
+    font-family: "Annie Use Your Telescope";
+
+
+}
+
 span{
     display:block;
     margin-top: 10px;
@@ -66,3 +77,11 @@ span select{
     min-height: 100%;
     z-index: -1;
   }
+  #gif{
+    width: 280px;
+    height:198px;
+    z-index: -1;
+    border: 3px solid;
+    border-radius: 25px;
+
+}

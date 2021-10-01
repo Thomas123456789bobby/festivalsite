@@ -13,12 +13,12 @@
     <body>
     <div class="main_box">
     <h1>dank u</h1>
-    <section z-index="1">
+    <section>
 
         <video src="img/Video_background_party.mp4" muted autoplay="true" loop="true" id="showcase"></video>
 
     </section>
-
+    <img id=gif src="img/giphy.gif" alt="Computer Man">
       <br>
       <form action="tikets.php" method="POST">
       <input id="box1" type="submit" value="return">

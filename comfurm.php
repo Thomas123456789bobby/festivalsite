@@ -27,22 +27,20 @@
     $text_4 = $_POST['text_4'];
     $getal_2 = $_POST['getal_2'];
     $dag = $_POST['dag'];
-    
+    $getal_3 = 36 * $getal_2;
     echo "<span> voornaam: $text_1 </span>";
     echo "<span> achternaam: $text_2 </span>";
     echo "<span> leeftijt: $getal_1 </span>";
     echo "<span> e-mail: $text_3 </span>";
     echo "<span> aders: $text_4 </span>";
     echo "<span> aantal: $getal_2 </span>";
-    echo "<span> aantal: $dag </span>"; 
+    echo "<span> dag: $dag </span>"; 
+    echo "<span> prijs: €$getal_3 euro</span>"; 
     
     
       ?>
-      <br>
-      <form action="tikets.php" method="POST">
-      <input id="box1" type="submit" value="return">
-      <input id="box1" type="submit" value="corfim">
-      </form>
+      <a href="tikets.php"><input id="box1" type="submit" value="return"></a>
+      <a href="denkje.php"><input id="box2" type="submit" value="corfurm"></a>
  </div>
     
    </body>
