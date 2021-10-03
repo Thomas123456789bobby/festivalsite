@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>dankje.php</title>
     </head>
     <body>
     <div class="main_box">
-    <h1>dank u</h1>
+    <h1>feesje!!!!!</h1>
     <section>
 
         <video src="img/Video_background_party.mp4" muted autoplay="true" loop="true" id="showcase"></video>
