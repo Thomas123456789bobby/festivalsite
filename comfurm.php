@@ -38,8 +38,8 @@
     echo "<span> dag: $dag </span>"; 
     echo "<span> prijs: €$getal_3 euro</span>"; 
     echo "<a href='tikets.php'><input id='box1' type='submit' value='return'></a>";
-    if ($getal_1 < 18 ) {echo "<a href='denkje.php'><input id='box2' type='submit' value='corfurm'></a>";}
-    if ($getal_1 => 18 ) { echo "<a href="jebenttejong.php"><input id="box2" type="submit" value="corfurm"></a>";}
+    if ($getal_1 >= 18 ) {echo "<a href='denkje.php'><input id='box2' type='submit' value='corfurm'></a>";}
+    if ($getal_1 < 18 ) { echo "<a href='jebenttejong.php'><input id='box2' type='submit' value='corfurm'></a>";}
       ?>
   
  </div>
