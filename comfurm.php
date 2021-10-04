@@ -27,7 +27,8 @@
     $text_4 = $_POST['text_4'];
     $getal_2 = $_POST['getal_2'];
     $dag = $_POST['dag'];
-    $getal_3 = 36 * $getal_2;
+    if ($dag == "zondag en zondag") {$getal_3 = 36 * 2 * $getal_2;}
+    if ($dag == "zondag" or $dag == "zaterdag") {$getal_3 = 36 * $getal_2;}
     echo "<span> voornaam: $text_1 </span>";
     echo "<span> achternaam: $text_2 </span>";
     echo "<span> leeftijt: $getal_1 </span>";
@@ -36,11 +37,11 @@
     echo "<span> aantal: $getal_2 </span>";
     echo "<span> dag: $dag </span>"; 
     echo "<span> prijs: €$getal_3 euro</span>"; 
-    
-    
+    echo "<a href='tikets.php'><input id='box1' type='submit' value='return'></a>";
+    if ($getal_1 < 18 ) {echo "<a href='denkje.php'><input id='box2' type='submit' value='corfurm'></a>";}
+    if ($getal_1 => 18 ) { echo "<a href="jebenttejong.php"><input id="box2" type="submit" value="corfurm"></a>";}
       ?>
-      <a href="tikets.php"><input id="box1" type="submit" value="return"></a>
-      <a href="denkje.php"><input id="box2" type="submit" value="corfurm"></a>
+  
  </div>
     
    </body>
