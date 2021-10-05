@@ -15,6 +15,7 @@
     <h1>klop het?</h1>
     <section z-index="1">
 
+        <video src="img/Video_background_party.mp4" muted autoplay="true" loop="true" id="showcase"></video>
 
     </section>
     
