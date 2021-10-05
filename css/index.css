@@ -1,8 +1,11 @@
+
 *{
+body{
     margin:0;
     padding:0;
     
 }
+
 
 
 
@@ -54,7 +57,19 @@ padding-left:10px;
 .navbar li:hover{
     background-color:red;
     color:blue;
+
+.header{
+    text-align:center;
 }
+
+
+.topnav{
+    background-color: blue;
+    text-align: left;
+
+
+}
+
 
 
 
@@ -139,3 +154,21 @@ border:1px solid black;
     position:fixed;bottom:0;
     color:yellow;
 }
+
+.topnav a{ 
+ display:inline;
+    background-color:darkblue;
+    text-decoration: none;
+    padding:14px 16px;
+   
+justify-content: center;
+    color:lightgray;
+    
+    padding-left: 498px;
+}
+
+.topnav a:hover{
+background-color: red;
+color: white;
+}
+

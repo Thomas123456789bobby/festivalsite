@@ -46,5 +46,25 @@
 <img id="email" src="img/R.png" width="50px" height="50px" >
 <p>165077@student.hor</p>
 </footer>
+    <title>Document</title>
+</head>
+<body>
+ <div class="header"> 
+     <h1> Festival </h1>
+ </div>
+
+<div class="topnav">
+    
+
+<a href="index.php">Home </a>
+<a href="programma.php">programma </a>
+<a href="php/tixets.php">tickets </a>
+
+</div>
+
+
+
+
+
 </body>
 </html>
