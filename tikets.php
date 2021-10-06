@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
-    <title>tiksets.php</title>
+    <title>tickets.php</title>
 </head>
 <body>
 <section z-index="1">
@@ -19,7 +19,7 @@
 
     <div class="main_box">
     <form action="comfurm.php" method="POST">
-        <h1>koop hier je tikets</h1>
+        <h1>koop hier je tickets</h1>
     
     <span> voornaam:
     <input id="box" type="text" name="text_1",>
@@ -31,7 +31,7 @@
     </span>
     
     
-    <span>leeftijt:
+    <span>leeftijd:
     <input id="box" type="number" name="getal_1">
     </span>
     
@@ -54,7 +54,7 @@
     <select name="dag" id="dag">
         <option value="zaterdag">    zaterdag    </option>
         <option value="zondag">    zondag    </option>
-        <option value="zondag en zondag">zondag en zondag</option>
+        <option value="zondag en zondag">zondag en zaterdag</option>
      </select>
     </span>
 

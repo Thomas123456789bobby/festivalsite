@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title> 
     <link rel="stylesheet"  href="css/tijden.css"> 
+    
+    <title></title> 
+
 </head>
 <body>
 <div class="container">
-    <ul class="navbar">
-        <li>home</li>
-        <li>programma</li>
-        <li>tickets</li>
+<ul class="navbar">
+    <a href="index.php"><li>home</li></a>
+    <a href="tijden.php"><li>programma</li></a>
+    <a href="tikets.php"><li>tikets</li></a>
+
+
     </ul>
     <h1 id="hoofd">Noorderfestival</h1> 
 </div>
@@ -105,16 +109,21 @@
             <td>18.00</td>
         </tr>
         
-        </tbody>
+        
  </div>
 </table>
-<div class="figure">
-</div>
+
+
+
+
 <footer>
+
 <img id="img" src="img/telefoon.jpg" width="50px" height="50px" > 
 <p>06 28857241</p>
+
 <img id="email" src="img/R.png" width="50px" height="50px" >
 <p>165077@student.hor</p>
+
 </footer>
 </body>
 </html>

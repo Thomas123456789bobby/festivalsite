@@ -8,8 +8,13 @@
 body{
     background-image: url(../img/dance-valley-festival-dancing-1.jpg);
     background-repeat: no-repeat;
-    background-size: 1300px;      
+    background-size: cover;      
         
+}
+
+h2 {
+
+color:white;
 }
 
     
@@ -65,7 +70,7 @@ table, td , th{
     text-align: center;
     height: 25px;
     padding: 10x;
-    background-color:cyan;
+    background-color:rgb(255, 255, 255);
     
     
 }
@@ -79,12 +84,7 @@ table, td , th{
 }
 
     
-.figure{
-    
-    float: right;
-    
-    
-}
+
 
 footer{
  
@@ -96,6 +96,6 @@ footer{
     background-color: rgb(2, 3, 1);
     justify-content: center;
     display: flex;
-       position:fixed;bottom:0;
+       position:fixed;bottom:0 ; left:0;
        color:yellow;
    }
